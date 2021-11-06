@@ -1,0 +1,524 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 15px;
+    color: #252525;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* About us */
+
+.about-us {
+    width: 100%;
+    height: 605px;
+    background-image: url('about_us.png');
+    /* background-image: url('about_us_compressed.jpg'); */
+}
+
+.about-us-details {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-us div {
+    margin: 0 auto;
+    width: 1200px;
+    height: 110px;
+}
+
+
+/* .about-us .one {
+    width: 1200px;
+    height: 15px;
+    background-color: rgb(231, 45, 45);
+} */
+
+.about-us span {
+    color: #252525;
+}
+
+.about-us .history {
+    background-color: #E9BD67;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.about-us .history-top {
+    color: white;
+}
+
+.about-us .history-bot {
+    display: none;
+}
+
+.about-us .vision,
+.about-us .mission,
+.about-us .who-we-are,
+.about-us .what-we-do {
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.about-us .history-details {
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+}
+
+.about-us .vision-details,
+.about-us .mission-details,
+.about-us .who-we-are-details,
+.about-us .what-we-do-details {
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .about-us {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .about-us-details {
+        width: 100%;
+    }
+    .about-us div {
+        width: 100%;
+    }
+}
+
+
+/* partners */
+
+.partners h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.partners {
+    width: 100%;
+    height: 400px;
+    background-color: #F9F9F9;
+    margin-bottom: 100px;
+}
+
+.partners div {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.partners div div {
+    margin: 0 auto;
+    width: 850px;
+    padding: 0;
+}
+
+@media (max-width: 1200px) {
+    .partners div {
+        width: 100%;
+    }
+    .partners div div {
+        width: 100%;
+    }
+}
+
+.partners ul {
+    align-items: center;
+    /* align-content: center; */
+    list-style-type: none;
+    display: flex;
+}
+
+.partners ul li {
+    padding: 30px;
+}
+
+.graphics {
+    width: 200px;
+    height: 200px;
+}
+
+.i-tech {
+    width: 150px;
+    height: 172px;
+}
+
+.tekdot {
+    width: 200px;
+    height: 100px;
+}
+
+@media (max-width: 855px) {
+    .partners {
+        height: 700px;
+    }
+    .partners ul {
+        display: list-item;
+    }
+    .partners ul li {
+        padding: 10px;
+        /* padding-left: 50%; */
+        /* padding-right: 50%; */
+    }
+    .partners div div {
+        width: 300px;
+    }
+}
+
+
+/* Contact */
+
+.contact {
+    margin: 0 auto;
+    color: #E9BD67;
+    width: 1200px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact .map {
+    width: 840px;
+    height: 100%;
+    float: right;
+}
+
+.contact .contact-form {
+    width: 360px;
+    height: 100%;
+    background-color: #1E3C72;
+    float: left;
+}
+
+.icon-f {
+    width: 30px;
+    height: 23px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #E9BD67;
+    font-size: 24px;
+}
+
+.contact ul {
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.contact ul li {
+    padding: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    border: none;
+    background: none;
+    border-bottom: solid 1px #E9BD67;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 230px;
+    outline: none;
+    color: white;
+}
+
+.contact-form input[type="submit"] {
+    width: 280px;
+    height: 25px;
+    border: none;
+    background-color: #E9BD67;
+    border-radius: 24px;
+    outline: none;
+    color: #252525;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ddb054;
+}
+
+.contact-form div p {
+    text-align: center;
+    margin: 0;
+}
+
+.successfuly-sent {
+    width: 100%;
+    color: green;
+    font-weight: bold;
+    display: none;
+}
+
+.error-sent {
+    width: 100%;
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .contact {
+        width: 1000px;
+    }
+    .contact .map {
+        width: 70%;
+    }
+    .contact .contact-form {
+        width: 30%;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 200px;
+    }
+    .contact-form input[type="submit"] {
+        width: 225px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact {
+        width: 100%;
+    }
+    .icon-f {
+        display: none;
+    }
+    .contact-form input[type="submit"] {
+        width: 215px;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact ul {
+        padding: 0px;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 90%;
+    }
+    .contact-form input[type="submit"] {
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+    .contact .map {
+        display: none;
+    }
+    .contact .contact-form {
+        width: 425px;
+        float: unset;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact .contact-form {
+        width: 100%;
+    }
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 230px;
+    color: white;
+    background-color: #1E3C72;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 1200px;
+    height: 230px;
+}
+
+footer h2 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+footer .outline {
+    width: 40px;
+    float: left;
+    padding-top: 0;
+    border-color: white;
+}
+
+footer .first .left img {
+    height: 150px;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+.footer .first {
+    width: 60%;
+    height: 230px;
+    float: left;
+}
+
+.footer .first .left {
+    width: 40%;
+    float: left;
+}
+
+.footer .first .right {
+    width: 58%;
+    float: right;
+}
+
+.footer .second {
+    width: 39%;
+    height: 230px;
+    float: right;
+}
+
+.footer .second .left {
+    width: 40%;
+    float: left;
+}
+
+.footer .second .right {
+    width: 58%;
+    float: right;
+}
+
+footer table td {
+    padding: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-hr {
+    width: 80%;
+    background-color: white;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    background-color: #1E3C72;
+    color: white;
+    border-top: solid 1px #C5C5C5;
+}
+
+.copyright p {
+    padding: 10px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 12px;
+}
+
+@media (max-width:1200px) {
+    footer {
+        width: 100%;
+    }
+}
+
+@media (max-width:1000px) {
+    footer .first .left img {
+        height: 130px;
+        padding-top: 25%;
+        padding-left: 25%;
+    }
+}
+
+@media (max-width:768px) {
+    .footer {
+        height: 550px;
+    }
+    footer {
+        padding: 20px;
+    }
+    .footer .first {
+        width: 100%;
+        float: left;
+    }
+    .footer .second {
+        width: 100%;
+        float: left;
+    }
+    footer .first .left {
+        display: none;
+    }
+    footer .first .left img {
+        display: none;
+    }
+    .footer .first .right {
+        float: unset;
+        width: 100%;
+    }
+    .footer .first {
+        height: 150px;
+    }
+    footer {
+        height: 150px;
+    }
+    .footer .second .left {
+        width: 100%;
+    }
+    .footer .second .right {
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .footer .first {
+        height: 180px;
+    }
+    .footer {
+        height: 600px;
+    }
+}
+
+
+/* lower footer */
+
+
+/* .lower-footer {
+    width: 100%;
+    height: 35px;
+    background-color: #1E3C72;
+} */
