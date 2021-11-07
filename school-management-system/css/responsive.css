@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1200px) {
+  .container-box {
+    width: 1000px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .container-box-box {
+    width: 98%;
+  }
+  .container-box-box .right {
+    width: 45%;
+  }
+  .container-box .left {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .container-box {
+    height: 2100px;
+  }
+  .b-r {
+    display: none;
+  }
+  .container-box .right .text-align-center .image {
+    float: unset;
+    margin: 0 auto;
+  }
+  .container-box .left {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* padding-right: 5px; */
+  }
+  .container-box .right {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    /* padding-right: 5px; */
+  }
+  #inner-btn {
+    display: block;
+  }
+  #outter-btn {
+    display: none;
+    /* float: right;
+    margin: 0px;
+    margin-right: 25px; */
+  }
+  .container-box .right .text-align-center,
+  .container-box .left .text-align-center {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .container-box input[type="text"],
+  .container-box input[type="numeric"],
+  .container-box input[type="date"],
+  .container-box input[type="file"],
+  .container-box .selection {
+    width: 96%;
+    font-size: 16px;
+  }
+  .container-box label {
+    font-size: 16px;
+  }
+  .container-box label b {
+    font-size: 16px;
+  }
+  .container-box input[type="submit"] {
+    margin: 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-box .right .text-align-center,
+  .container-box .left .text-align-center {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container-box .right .text-align-center,
+  .container-box .left .text-align-center {
+    width: 90%;
+  }
+  .container-box input[type="text"],
+  .container-box input[type="numeric"],
+  .container-box input[type="date"],
+  .container-box input[type="file"],
+  .container-box .selection {
+    width: 95%;
+  }
+  .container-box input[type="submit"] {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .container-box .right .text-align-center,
+  .container-box .left .text-align-center {
+    width: 90%;
+  }
+  .container-box input[type="text"],
+  .container-box input[type="numeric"],
+  .container-box input[type="date"],
+  .container-box input[type="file"],
+  .container-box .selection {
+    width: 95%;
+  }
+  .container-box input[type="submit"] {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .container-box .right .text-align-center,
+  .container-box .left .text-align-center {
+    width: 85%;
+  }
+  .container-box input[type="text"],
+  .container-box input[type="numeric"],
+  .container-box input[type="date"],
+  .container-box input[type="file"],
+  .container-box .selection {
+    width: 95%;
+  }
+  .container-box input[type="submit"] {
+    width: 98%;
+  }
+  /* .container-box .right .text-align-center .image {
+    width: 80%;
+  } */
+}

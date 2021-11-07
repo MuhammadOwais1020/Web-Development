@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.admission-form {
+  width: 1050px;
+  height: 1350px;
+  margin: 0 auto;
+  padding: 10px;
+  /* background-color: coral; */
+  border: 1px solid black;
+}
+.admission-form .company-title {
+  width: 100%;
+}
+.admission-form .company-title img {
+  width: 100%;
+}
+.admission-form .heading {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.admission-form .heading p {
+  text-align: center;
+  font-size: 30px;
+}
+.admission-form .inner-box {
+  height: 500px;
+}
+.admission-form .left,
+.admission-form .right {
+  font-size: 20px;
+}
+.admission-form .left {
+  float: left;
+  text-align: right;
+  width: 59%;
+}
+.admission-form .right {
+  float: right;
+  text-align: right;
+  width: 40%;
+}
+.admission-form .left .image {
+  float: left;
+  border: 1px solid black;
+}
+.line {
+  border-bottom: 1px solid black;
+}
+.admission-form .iftar-nama {
+  width: 100%;
+  height: 140px;
+  /* background-color: crimson; */
+  border-bottom: 1px solid black;
+}
+.admission-form .iftar-nama h1,
+.admission-form .note h1,
+.admission-form .office-use-only h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.admission-form .iftar-nama table,
+.admission-form .note table {
+  float: right;
+  text-align: right;
+}
+.admission-form .note {
+  width: 100%;
+  height: 115px;
+  border-bottom: 1px solid black;
+}
+.admission-form .office-use-only p {
+  text-align: right;
+}
+.alert-message {
+  text-align: center;
+}
