@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(233, 229, 229, 0.822); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contBox{
+    margin: 0 auto;
+    width: 1200px;
+    height: 2200px;
+}
+.contBox .chart-graph{
+    display: none;
+    margin-top: 3%;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contBox .survay-form{
+    margin-top: 3%;
+    width: 100%;
+    height: 1800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contBox .survay-form .info{
+    width: 100%;
+    padding: 10px;
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(50deg,#eb3349,#f45c43);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    /* padding: 8px 8px 8px 8px; */
+    color: white;
+}
+.heading p{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    /* padding: 8px 0px 0px 8px; */
+    color: white;
+}
+.left-form{
+    width: 47%;
+    height: 700px;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    /* border: solid 1px black; */
+}
+.right-form{
+    width: 47%;
+    height: 700px;
+    float: right;
+    margin: 1%;
+    padding: 4%;
+    /* border: solid 1px black; */
+}
+.info p{
+    font-size: 18px;
+}
+.info a p:hover,.info a p:focus{
+    color: blue;
+}
+.survay-form label{
+    font-size: 20px;
+}
+.survay-form input[type="text"], select, .survay-form input[type="date"], .survay-form input[type="number"]{
+    border:0;
+    display:block;
+    text-align:left;
+    border:2px solid #0daaaa;;
+    padding:8px 8px;
+    width: 500px;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius:5px;
+    outline:none;
+    transition:0.25s;
+}
+.survay-form input[type="checkbox"]{
+    transform: scale(1.8);
+    margin: 10px;
+}
+.survay-form input[type="radio"]{
+    transform: scale(1.8);
+    margin: 10px;
+}
+.survay-form input[type="submit"]{
+    border:0;
+    background-image: linear-gradient(50deg,#eb3349,#f45c43);
+    display:block;
+    margin:5px auto;
+    text-align:center;
+    padding:8px 8px;
+    width: 200px;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:24px;
+    color: white;
+    outline:none;
+    CURSOR:pointer;
+    float: right;
+}
+.survay-form input[type="submit"]:hover,.survay-form input[type="submit"]:focus{
+    background-image: linear-gradient(50deg,#f45c43,#eb3349);
+}
+/* Responsive */
+@media only screen and (max-width: 1200px){
+    .contBox{
+        width: 95%;
+    }
+    .survay-form input[type="text"], select, .survay-form input[type="date"], .survay-form input[type="number"]{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .contBox{
+        width: 95%;
+    }
+    .contBox .survay-form{
+        height: 2000px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .contBox{
+        width: 95%;
+        height: 3500px;
+    }
+    .contBox .survay-form{
+        height: 2700px;
+    }
+    .left-form{
+        width: 100%;
+        height: 1000px;
+    }
+    .right-form{
+        width: 100%;
+    }
+    .survay-form input[type="submit"]{
+        float: left;
+    }
+    .contBox .survay-form{
+        height: 2800px;
+    }
+}
+@media only screen and (max-width: 713px){
+    .contBox .survay-form{
+        height: 3000px;
+    }
+}
+@media only screen and (max-width: 628px){
+    .contBox{
+        height: 4000px;
+    }
+    .contBox .survay-form{
+        height: 3000px;
+    }
+}
+@media only screen and (max-width: 550px){
+    
+    .contBox .survay-form{
+        height: 3100px;
+    }
+}
+@media only screen and (max-width: 455px){
+    .contBox{
+        height: 3400px;
+    }
+    .left-form{
+        height: 1000px;
+    }
+    .survay-form input[type="text"], select, .survay-form input[type="date"], .survay-form input[type="number"]{
+        width: 90%;
+    }
+    .survay-form input[type="submit"]{
+        width: 100%;
+    }
+    .contBox .survay-form{
+        height: 3300px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .contBox{
+        height: 3600px;
+    }
+    .contBox .survay-form{
+        height: 3400px;
+    }
+}
+@media only screen and (max-width: 363px){
+    .contBox .survay-form{
+        height: 3500px;
+    }
+}
+@media only screen and (max-width: 330px){
+    .contBox{
+        height:3650px;
+    }
+    .contBox .survay-form{
+        height: 3550px;
+    }
+}

@@ -1,0 +1,52 @@
+.singleContainer{
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+.left{
+float: left;
+width: 73%;
+height: 1000px;
+margin: 1%;
+}
+.right{
+float: right;
+width: 23%;
+height: 1000px;
+margin: 1%;
+}
+.right h2{
+    float: left;
+}
+.shortline{
+    margin: 0 auto;
+    width: 1350px;
+    height: 1px;
+    background-color: rgb(209, 209, 206);
+}
+.singleContainer .right .video{
+    width: 100%;
+    height: 150px;
+
+}
+.singleContainer .right .video .photo{
+    float: left;
+}
+.singleContainer .right .video .info{
+    float: right;
+}
+.singleContainer .right .video .info p{
+    text-align: left;
+}
+.singleContainer .right .video .info .views{
+    font-size: 16px;
+    color: rgb(133, 132, 132);
+    text-align: left;
+}
+.left .video{
+    width: 100%;
+    height: 500px;
+}
